@@ -1,0 +1,20 @@
+{
+    // "env": {
+    //     "node": true,
+    //     "es2021": true
+    // },
+    // "extends": "trybe-fundamentals"
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    // "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    }
+    // "plugins": [
+    //     "react"
+    // ],
+    // "rules": {}
+}
