@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './App.css';
 import About from './components/About';
 import Banner from './components/Banner';
