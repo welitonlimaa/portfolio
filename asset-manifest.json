@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.71063325.css",
-    "main.js": "/portfolio/static/js/main.5e96992e.js",
+    "main.css": "/portfolio/static/css/main.d45caf9f.css",
+    "main.js": "/portfolio/static/js/main.5d099e26.js",
     "static/js/787.4e17cf40.chunk.js": "/portfolio/static/js/787.4e17cf40.chunk.js",
     "static/media/20503235.jpg": "/portfolio/static/media/20503235.4fc6936f4b5eec583072.jpg",
+    "static/media/solarsystem.png": "/portfolio/static/media/solarsystem.397f03704d37cccfa14c.png",
+    "static/media/tunes.png": "/portfolio/static/media/tunes.91212d659a02ebcd75ba.png",
+    "static/media/starwars.png": "/portfolio/static/media/starwars.a50bd6e962b7b034a27d.png",
+    "static/media/shoppingcart.png": "/portfolio/static/media/shoppingcart.670cb69a66d526e61d03.png",
+    "static/media/wallet.png": "/portfolio/static/media/wallet.3ab830503feab2312da5.png",
     "static/media/weliton.jpeg": "/portfolio/static/media/weliton.98c66bbfad21028daa3f.jpeg",
-    "static/media/project-mockup-example.jpeg": "/portfolio/static/media/project-mockup-example.66d87d89c3e75b68cdc2.jpeg",
     "static/media/common-bg.svg": "/portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/portfolio/index.html",
     "static/media/ham-menu.svg": "/portfolio/static/media/ham-menu.67af819cd8b016553cfe5e91fc4626d9.svg",
     "static/media/ham-menu-close.svg": "/portfolio/static/media/ham-menu-close.26f09e36db4c8500ff4b8c90e24d5f7a.svg",
-    "main.71063325.css.map": "/portfolio/static/css/main.71063325.css.map",
-    "main.5e96992e.js.map": "/portfolio/static/js/main.5e96992e.js.map",
+    "main.d45caf9f.css.map": "/portfolio/static/css/main.d45caf9f.css.map",
+    "main.5d099e26.js.map": "/portfolio/static/js/main.5d099e26.js.map",
     "787.4e17cf40.chunk.js.map": "/portfolio/static/js/787.4e17cf40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71063325.css",
-    "static/js/main.5e96992e.js"
+    "static/css/main.d45caf9f.css",
+    "static/js/main.5d099e26.js"
   ]
 }
