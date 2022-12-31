@@ -402,14 +402,22 @@ textarea {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     grid-gap: 5rem;
-    margin-bottom: 11rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    ;
+}
+
+.projects__row:hover {
+    background-color: rgb(238, 238, 238);
 }
 
 @media only screen and (max-width: 56.25em) {
     .projects__row {
         grid-template-columns: 1fr;
         grid-gap: 2rem;
-        margin-bottom: 8rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -431,7 +439,7 @@ textarea {
     overflow: hidden;
 }
 
-.projects__row-img-cont::after {
+/* .projects__row-img-cont::after {
     content: '';
     position: absolute;
     text-align: center;
@@ -439,7 +447,7 @@ textarea {
     height: 2px;
     margin-top: 40px;
     background-color: rgb(218, 218, 218);
-}
+} */
 
 .projects__row-img {
     width: 100%;
