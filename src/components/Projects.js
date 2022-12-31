@@ -1,5 +1,10 @@
 import React from 'react';
-import frontproject from '../assets/jpeg/project-mockup-example.jpeg';
+import ProjectCart from './ProjectCart';
+import tunesimg from '../assets/png/tunes.png';
+import walletimg from '../assets/png/wallet.png';
+import shoppingimg from '../assets/png/shoppingcart.png';
+import solarsystemimg from '../assets/png/solarsystem.png';
+import starwarsimg from '../assets/png/starwars.png';
 
 class Projects extends React.Component {
   render() {
@@ -15,63 +20,46 @@ class Projects extends React.Component {
           </h2>
 
           <div className="projects__content">
-            <div className="projects__row">
-              <div className="projects__row-img-cont">
-                <img
-                  src={frontproject}
-                  alt="Software Screenshot"
-                  className="projects__row-img"
-                  loading="lazy"
-                />
-              </div>
-              <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Project 1</h3>
-                <p className="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            <ProjectCart
+              image={tunesimg}
+              title="More Tunes"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                   facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
-                </p>
-                <a href="./project-1.html" className="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-              </div>
-            </div>
-            <div className="projects__row">
-              <div className="projects__row-img-cont">
-                <img
-                  src={frontproject}
-                  alt="Software Screenshot"
-                  className="projects__row-img"
-                  loading="lazy"
-                />
-              </div>
-              <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Project 2</h3>
-                <p className="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  praesentium."
+              url="https://welitonlimaa.github.io/more-tunes"
+            />
+            <ProjectCart
+              image={shoppingimg}
+              title="Shopping Cart"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                   facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
-                </p>
-                <a href="./project-2.html" className="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-              </div>
-            </div>
-            <div className="projects__row">
-              <div className="projects__row-img-cont">
-                <img
-                  src={frontproject}
-                  alt="Software Screenshot"
-                  className="projects__row-img"
-                  loading="lazy"
-                />
-              </div>
-              <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Project 3</h3>
-                <p className="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  praesentium."
+              url="https://welitonlimaa.github.io/shopping-cart"
+            />
+            <ProjectCart
+              image={walletimg}
+              title="Personal Wallet"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                   facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
-                </p>
-                <a href="./project-3.html" className="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-              </div>
-            </div>
+                  praesentium."
+              url="https://welitonlimaa.github.io/personal-wallet"
+            />
+            <ProjectCart
+              image={solarsystemimg}
+              title="Solar System"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  facilis tempora, explicabo quae quod deserunt eius sapiente
+                  praesentium."
+              url="https://welitonlimaa.github.io/solar-system"
+            />
+            <ProjectCart
+              image={starwarsimg}
+              title="StarWars Planets"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  facilis tempora, explicabo quae quod deserunt eius sapiente
+                  praesentium."
+              url="https://welitonlimaa.github.io/starwars-planets"
+            />
           </div>
         </div>
       </section>
