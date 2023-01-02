@@ -12,10 +12,9 @@ class Projects extends React.Component {
       <section id="projects" className="projects sec-pad">
         <div className="main-container">
           <h2 className="heading heading-sec heading-sec__mb-bg">
-            <span className="heading-sec__main">Projects</span>
+            <span className="heading-sec__main">Projetos</span>
             <span className="heading-sec__sub">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
+              Aqui estão alguns dos principais projetos desenvolvidos por mim!
             </span>
           </h2>
 
@@ -23,41 +22,37 @@ class Projects extends React.Component {
             <ProjectCart
               image={tunesimg}
               title="More Tunes"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium."
+              description="More Tunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas 
+              e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada."
               url="https://welitonlimaa.github.io/more-tunes"
             />
             <ProjectCart
               image={shoppingimg}
               title="Shopping Cart"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium."
+              description="Carrinho de compras totalmente dinâmico, onde você será capaz de pesquisar por diversos 
+              produtos e adicioná-los ao carrinho de compras."
               url="https://welitonlimaa.github.io/shopping-cart"
             />
             <ProjectCart
               image={walletimg}
               title="Personal Wallet"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium."
+              description="Foi desenvolvido carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário é capaz de:
+              adicionar, remover e editar um gasto, visualizar uma tabelas com seus gastos; 
+              visualizar o total de gastos convertidos para uma moeda de escolha."
               url="https://welitonlimaa.github.io/personal-wallet"
             />
             <ProjectCart
               image={solarsystemimg}
               title="Solar System"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium."
+              description="Nesse aplicação você poderá visualizar todos os planetas do sistema solar renderizados na tela, 
+              e visualizar todas as cartas com informações sobre missões espaciais."
               url="https://welitonlimaa.github.io/solar-system"
             />
             <ProjectCart
               image={starwarsimg}
               title="StarWars Planets"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium."
+              description="Através da aplicação é possível acessar uma lista de planetas do universo de Star Wars, 
+              além disso você poderá pesquisar, filtrar e ordenar esse planetas."
               url="https://welitonlimaa.github.io/starwars-planets"
             />
           </div>

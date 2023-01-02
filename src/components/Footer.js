@@ -14,13 +14,13 @@ class Footer extends React.Component {
                 <span>Social</span>
               </h2>
               <div className="main-footer__social-cont">
-                <a target="_blank" rel="noreferrer" href>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/weliton-lima/">
                   <img className="main-footer__icon" src={linkedinicon} alt="icon" />
                 </a>
-                <a target="_blank" rel="noreferrer" href>
+                <a target="_blank" rel="noreferrer" href="https://github.com/welitonlimaa">
                   <img className="main-footer__icon" src={githubicon} alt="icon" />
                 </a>
-                <a target="_blank" rel="noreferrer" href>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/welitonlimaa">
                   <img className="main-footer__icon" src={twittericon} alt="icon" />
                 </a>
               </div>

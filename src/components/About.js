@@ -6,51 +6,42 @@ class About extends React.Component {
       <section id="about" className="about sec-pad">
         <div className="main-container">
           <h2 className="heading heading-sec heading-sec__mb-med">
-            <span className="heading-sec__main">About Me</span>
-            <span className="heading-sec__sub">
+            <span className="heading-sec__main">Sobre mim</span>
+            {/* <span className="heading-sec__sub">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
               tempora explicabo quae quod deserunt eius sapiente
-            </span>
+            </span> */}
           </h2>
           <div className="about__content">
             <div className="about__content-main">
-              <h3 className="about__content-title">Get to know me!</h3>
+              <h3 className="about__content-title">Me conheça!</h3>
               <div className="about__content-details">
                 <p className="about__content-details-para">
-                  Hey! It{"'"}s
-                  <strong> Weliton </strong>
-                  and I{"'"}m a <strong> Frontend Web Developer </strong> located in
-                  Los Angeles. I{"'"}ve done
-                  <strong> remote </strong>
-                  projects for agencies, consulted for startups, and collaborated
-                  with talented people to create
-                  <strong>digital products </strong>
-                  for both business and consumer use.
+                  Eu sou <strong> Desenvolvedor Web Frontend </strong> nascido e criado no
+                  interior do Tocantins. Eu venho estudando <strong> Desenvolvimento Web Full Stack </strong>,
+                  e tenho desenvolvido projetos Frontend para aprimorar minhas habilidades e contribuir com a
+                  comunidade tech.
                 </p>
                 <p className="about__content-details-para">
-                  I{"'"}m a bit of a digital product junky. Over the years, I{"'"}ve used
-                  hundreds of web and mobile apps in different industries and
-                  verticals. Feel free to
-                  <strong>contact</strong> me here.
+                  Sou técnico em informática, programo desde os 15 anos de idade e já tive contato com diversas
+                  linguagens de programação como: C++, PHP, JAVA, e JavaScript. Gosto de estar constantemente
+                  aprendendo e contribuindo, e me sinto confortável em exercer posições de liderança.
                 </p>
               </div>
-              <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a>
+              {/* <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a> */}
             </div>
             <div className="about__content-skills">
-              <h3 className="about__content-title">My Skills</h3>
+              <h3 className="about__content-title">Minhas Skills</h3>
               <div className="skills">
                 <div className="skills__skill">HTML</div>
                 <div className="skills__skill">CSS</div>
                 <div className="skills__skill">JavaScript</div>
                 <div className="skills__skill">React</div>
-                <div className="skills__skill">SASS</div>
+                <div className="skills__skill">Redux</div>
+                <div className="skills__skill">Jest & Testing Library</div>
                 <div className="skills__skill">GIT</div>
-                <div className="skills__skill">Shopify</div>
+                <div className="skills__skill">Bootstrap</div>
                 <div className="skills__skill">Wordpress</div>
-                <div className="skills__skill">Google ADS</div>
-                <div className="skills__skill">Facebook Ads</div>
-                <div className="skills__skill">Android</div>
-                <div className="skills__skill">IOS</div>
               </div>
             </div>
           </div>

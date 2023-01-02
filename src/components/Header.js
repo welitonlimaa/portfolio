@@ -34,11 +34,11 @@ class Header extends React.Component {
                 <a href="#banner" className="header__link"> Home </a>
               </li>
               <li className="header__link-wrapper">
-                <a href="#about" className="header__link">About </a>
+                <a href="#about" className="header__link"> Sobre mim </a>
               </li>
               <li className="header__link-wrapper">
                 <a href="#projects" className="header__link">
-                  Projects
+                  Projetos
                 </a>
               </li>
             </ul>
@@ -69,14 +69,14 @@ class Header extends React.Component {
                 className="header__sm-menu-link"
                 onClick={this.headerSmallMenuLinks}
               >
-                <a href="#about"> About </a>
+                <a href="#about"> Sobre mim </a>
               </button>
 
               <button
                 className="header__sm-menu-link"
                 onClick={this.headerSmallMenuLinks}
               >
-                <a href="#projects"> Projects </a>
+                <a href="#projects"> Projetos </a>
               </button>
 
               {/* <li className="header__sm-menu-link">

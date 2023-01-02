@@ -14,37 +14,49 @@ class Banner extends React.Component {
             alt='Weliton picture'
             id="picture"
           />
-          <h1 className="heading-primary">Hey, My name is Weliton</h1>
+          <h1 className="heading-primary">Olá, meu nome é Weliton</h1>
           <div className="home-hero__info">
             <p className="text-primary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente solutions for
-              complex problems
+              Aqui você vai conhecer um pouco sobre mim, minhas skills e também acessar alguns
+              dos meus principais projetos desenvolvidos.
+              Seja bem vindo e sinta-se a vontade para entrar em contato comigo!
             </p>
           </div>
           <div className="home-hero__cta">
-            <a href="./#projects" className="btn btn--bg">Projects</a>
+            <a href="./#projects" className="btn btn--bg">Projetos</a>
           </div>
         </div>
         <div className="home-hero__socials">
           <div className="home-hero__social">
-            <a href className="home-hero__social-icon-link">
+            <a
+              href="https://www.linkedin.com/in/weliton-lima/"
+              className="home-hero__social-icon-link"
+              target="_blank" rel="noreferrer"
+            >
               <img src={linkedinicon} alt="icon" className="home-hero__social-icon" />
             </a>
           </div>
           <div className="home-hero__social">
-            <a href className="home-hero__social-icon-link">
+            <a
+              href="https://github.com/welitonlimaa"
+              className="home-hero__social-icon-link"
+              target="_blank" rel="noreferrer"
+            >
               <img src={githubicon} alt="icon" className="home-hero__social-icon" />
             </a>
           </div>
           <div className="home-hero__social">
-            <a href className="home-hero__social-icon-link">
+            <a
+              href="https://twitter.com/welitonlimaa"
+              className="home-hero__social-icon-link"
+              target="_blank" rel="noreferrer"
+            >
               <img src={twittericon} alt="icon" className="home-hero__social-icon" />
             </a>
           </div>
         </div>
         <div className="home-hero__mouse-scroll-cont">
-          <div className="mouse" />
+          <a className="mouse" href='#about' />
         </div>
       </section>
     );
