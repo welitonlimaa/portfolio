@@ -27,14 +27,20 @@ class Footer extends React.Component {
             </div>
             <div className="main-footer__row main-footer__row-2">
               <h4 className="heading heading-sm text-lt">Weliton Lima</h4>
-              <p className="main-footer__short-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-                tempora explicabo quae quod deserunt
-              </p>
+              <blockquote>
+                <p className="main-footer__short-desc">
+                  <i>
+                    Como sou pouco e sei pouco, faço o pouco que me cabe me dando por inteiro.
+                  </i>
+                </p>
+                <footer className="main-footer__short-descautor">
+                  ~ Thiago de Mello
+                </footer>
+              </blockquote>
             </div>
           </div>
           <div className="main-footer__lower">
-            &copy; Copyright 2022. Made by
+            &copy; Copyright 2023. Made by
             <a rel="noreferrer" target="_blank" href>Weliton Lima</a>
           </div>
         </div>

@@ -18,7 +18,7 @@ class About extends React.Component {
               <div className="about__content-details">
                 <p className="about__content-details-para">
                   Eu sou <strong> Desenvolvedor Web Frontend </strong> nascido e criado no
-                  interior do Tocantins. Eu venho estudando <strong> Desenvolvimento Web Full Stack </strong>,
+                  interior do Tocantins. Venho estudando <strong> Desenvolvimento Web Full Stack </strong>,
                   e tenho desenvolvido projetos Frontend para aprimorar minhas habilidades e contribuir com a
                   comunidade tech.
                 </p>
