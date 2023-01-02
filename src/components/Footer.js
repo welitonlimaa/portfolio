@@ -2,18 +2,22 @@ import React from 'react';
 import linkedinicon from '../assets/png/linkedin-ico.png';
 import githubicon from '../assets/png/github-ico.png';
 import twittericon from '../assets/png/twitter-ico.png';
+import { MdEmail } from 'react-icons/md';
+import { RiWhatsappFill } from 'react-icons/ri';
 
 class Footer extends React.Component {
   render() {
     return (
-      <footer className="main-footer">
+      <footer id="footer" className="main-footer">
         <div className="main-container">
           <div className="main-footer__upper">
-            <div className="main-footer__row main-footer__row-1">
+            <div className="main-footer__row main-footer__row-2">
               <h2 className="heading heading-sm main-footer__heading-sm">
-                <span>Social</span>
+                <span>Contato</span>
               </h2>
               <div className="main-footer__social-cont">
+                <p className="contact-address"><MdEmail /> welitonlima159@gmail.com</p>
+                <p className="contact-address"><RiWhatsappFill /> {"(83)"} 991284455</p>
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/weliton-lima/">
                   <img className="main-footer__icon" src={linkedinicon} alt="icon" />
                 </a>
@@ -25,7 +29,8 @@ class Footer extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="main-footer__row main-footer__row-2">
+            <div className="main-footer__row main-footer__row-1">
+              <br />
               <h4 className="heading heading-sm text-lt">Weliton Lima</h4>
               <blockquote>
                 <p className="main-footer__short-desc">

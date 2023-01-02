@@ -41,6 +41,9 @@ class Header extends React.Component {
                   Projetos
                 </a>
               </li>
+              <li className="header__link-wrapper">
+                <a href="#footer" className="header__link"> Contato </a>
+              </li>
             </ul>
             <button
               type="button"
@@ -79,9 +82,12 @@ class Header extends React.Component {
                 <a href="#projects"> Projetos </a>
               </button>
 
-              {/* <li className="header__sm-menu-link">
-                <a href="./index.html#contact"> Contact </a>
-              </li> */}
+              <button
+                className="header__sm-menu-link"
+                onClick={this.headerSmallMenuLinks}
+              >
+                <a href="#footer"> Contato </a>
+              </button>
             </ul>
           </div>
         </div>

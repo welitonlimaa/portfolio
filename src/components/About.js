@@ -28,7 +28,7 @@ class About extends React.Component {
                   aprendendo e contribuindo, e me sinto confortável em exercer posições de liderança.
                 </p>
               </div>
-              {/* <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a> */}
+              <a href="#footer" className="btn btn--med btn--theme dynamicBgClr">Contato</a>
             </div>
             <div className="about__content-skills">
               <h3 className="about__content-title">Minhas Skills</h3>
