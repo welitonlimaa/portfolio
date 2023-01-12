@@ -18,13 +18,13 @@ class About extends React.Component {
               <div className="about__content-details">
                 <p className="about__content-details-para">
                   Eu sou <strong> Desenvolvedor Web Frontend </strong> nascido e criado no
-                  interior do Tocantins. Venho estudando <strong> Desenvolvimento Web Full Stack </strong>,
+                  interior do Tocantins. Atualmente estou estudando <strong> Desenvolvimento Web Full Stack </strong>,
                   e tenho desenvolvido projetos Frontend para aprimorar minhas habilidades e contribuir com a
                   comunidade tech.
                 </p>
                 <p className="about__content-details-para">
                   Sou técnico em informática, programo desde os 15 anos de idade e já tive contato com diversas
-                  linguagens de programação como: C++, PHP, JAVA, e JavaScript. Gosto de estar constantemente
+                  linguagens de programação como: C++, PHP, Java, e JavaScript. Gosto de estar constantemente
                   aprendendo e contribuindo, e me sinto confortável em exercer posições de liderança.
                 </p>
               </div>
