@@ -33,11 +33,14 @@ class About extends React.Component {
             <div className="about__content-skills">
               <h3 className="about__content-title">Minhas Skills</h3>
               <div className="skills">
-                <div className="skills__skill">HTML</div>
-                <div className="skills__skill">CSS</div>
+                <div className="skills__skill">Node.js</div>
+                <div className="skills__skill">Express.js</div>
                 <div className="skills__skill">JavaScript</div>
                 <div className="skills__skill">React</div>
                 <div className="skills__skill">Redux</div>
+                <div className="skills__skill">HTML</div>
+                <div className="skills__skill">CSS</div>
+                <div className="skills__skill">SQL</div>
                 <div className="skills__skill">Jest & Testing Library</div>
                 <div className="skills__skill">GIT</div>
                 <div className="skills__skill">Bootstrap</div>
