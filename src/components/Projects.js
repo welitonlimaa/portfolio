@@ -5,6 +5,7 @@ import walletimg from '../assets/png/wallet.png';
 import shoppingimg from '../assets/png/shoppingcart.png';
 import solarsystemimg from '../assets/png/solarsystem.png';
 import starwarsimg from '../assets/png/starwars.png';
+import appreceitasimg from '../assets/png/appdereceitas.png';
 
 class Projects extends React.Component {
   render() {
@@ -54,6 +55,14 @@ class Projects extends React.Component {
               description="Através da aplicação é possível acessar uma lista de planetas do universo de Star Wars, 
               além disso você poderá pesquisar, filtrar e ordenar esse planetas."
               url="https://welitonlimaa.github.io/starwars-planets"
+            />
+            <ProjectCart
+              image={appreceitasimg}
+              title="App de Receitas"
+              description="Nele será possível: ver, buscar, filtrar, favoritar e acompanhar o progresso 
+              de preparação de receitas de comidas e bebidas! O layout tem como foco dispositivos móveis,
+              dessa forma foi desenvolvido para telas menores."
+              url="https://app-recipe-plus.vercel.app/"
             />
           </div>
         </div>
