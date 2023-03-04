@@ -16,7 +16,7 @@ class Footer extends React.Component {
                 <span>Contato</span>
               </h2>
               <div className="main-footer__social-cont">
-                <p className="contact-address"><MdEmail /> welitonlima159@gmail.com</p>
+                <p className="contact-address"><MdEmail /> welitonlimadev@gmail.com</p>
                 <p className="contact-address"><RiWhatsappFill /> {"(83)"} 991284455</p>
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/weliton-lima/">
                   <img className="main-footer__icon" src={linkedinicon} alt="icon" />
