@@ -25,7 +25,7 @@ class Projects extends React.Component {
               title="More Tunes"
               description="More Tunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas 
               e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada."
-              url="https://welitonlimaa.github.io/more-tunes"
+              url="https://more-tunes.vercel.app/"
             />
             <ProjectCart
               image={shoppingimg}
