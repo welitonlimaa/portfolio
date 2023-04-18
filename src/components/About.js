@@ -17,7 +17,7 @@ class About extends React.Component {
               <h3 className="about__content-title">Me conheça!</h3>
               <div className="about__content-details">
                 <p className="about__content-details-para">
-                  Eu sou <strong> Desenvolvedor Web Frontend </strong> nascido e criado no
+                  Eu sou <strong> Desenvolvedor Web Full Stack Junior </strong> nascido e criado no
                   interior do Tocantins. Atualmente estou estudando <strong> Desenvolvimento Web Full Stack </strong>,
                   e tenho desenvolvido projetos Frontend para aprimorar minhas habilidades e contribuir com a
                   comunidade tech.
@@ -35,15 +35,20 @@ class About extends React.Component {
               <div className="skills">
                 <div className="skills__skill">Node.js</div>
                 <div className="skills__skill">Express.js</div>
-                <div className="skills__skill">JavaScript</div>
+                <div className="skills__skill">ECMASCRIPT 6</div>
+                <div className="skills__skill">TypeScript</div>
                 <div className="skills__skill">React</div>
+                <div className="skills__skill">Next.js</div>
                 <div className="skills__skill">Redux</div>
+                <div className="skills__skill">Hooks</div>
                 <div className="skills__skill">HTML</div>
                 <div className="skills__skill">CSS</div>
-                <div className="skills__skill">SQL</div>
+                <div className="skills__skill">MySQL</div>
+                <div className="skills__skill">MongoDB</div>
                 <div className="skills__skill">Jest & Testing Library</div>
                 <div className="skills__skill">GIT</div>
                 <div className="skills__skill">Bootstrap</div>
+                <div className="skills__skill">Tailwind CSS</div>
                 <div className="skills__skill">Wordpress</div>
               </div>
             </div>
