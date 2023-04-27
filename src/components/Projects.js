@@ -6,6 +6,7 @@ import shoppingimg from '../assets/png/shoppingcart.png';
 import solarsystemimg from '../assets/png/solarsystem.png';
 import starwarsimg from '../assets/png/starwars.png';
 import appreceitasimg from '../assets/png/appdereceitas.png';
+import productsearch from '../assets/png/productsearch.png';
 
 class Projects extends React.Component {
   render() {
@@ -26,6 +27,22 @@ class Projects extends React.Component {
               description="More Tunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas 
               e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada."
               url="https://more-tunes.vercel.app/"
+            />
+            <ProjectCart
+              image={productsearch}
+              title="Product Search"
+              description="Este é um projeto de um buscador de produtos que conecta-se com as páginas do Mercado Livre e do Buscapé, 
+              realizando web scraping para obter informações sobre produtos nas categorias Celular, Geladeira e TV. 
+              A busca pode ser feita tanto no Mercado Livre ou Buscapé, e até em ambos."
+              url="https://products-search.up.railway.app/"
+            />
+            <ProjectCart
+              image={appreceitasimg}
+              title="App de Receitas"
+              description="Nele será possível: ver, buscar, filtrar, favoritar e acompanhar o progresso 
+              de preparação de receitas de comidas e bebidas! O layout tem como foco dispositivos móveis,
+              dessa forma foi desenvolvido para telas menores."
+              url="https://app-recipe-plus.vercel.app/"
             />
             <ProjectCart
               image={shoppingimg}
@@ -55,14 +72,6 @@ class Projects extends React.Component {
               description="Através da aplicação é possível acessar uma lista de planetas do universo de Star Wars, 
               além disso você poderá pesquisar, filtrar e ordenar esse planetas."
               url="https://welitonlimaa.github.io/starwars-planets"
-            />
-            <ProjectCart
-              image={appreceitasimg}
-              title="App de Receitas"
-              description="Nele será possível: ver, buscar, filtrar, favoritar e acompanhar o progresso 
-              de preparação de receitas de comidas e bebidas! O layout tem como foco dispositivos móveis,
-              dessa forma foi desenvolvido para telas menores."
-              url="https://app-recipe-plus.vercel.app/"
             />
           </div>
         </div>

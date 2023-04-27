@@ -7,10 +7,6 @@ class About extends React.Component {
         <div className="main-container">
           <h2 className="heading heading-sec heading-sec__mb-med">
             <span className="heading-sec__main">Sobre mim</span>
-            {/* <span className="heading-sec__sub">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
-            </span> */}
           </h2>
           <div className="about__content">
             <div className="about__content-main">
