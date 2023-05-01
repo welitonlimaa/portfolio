@@ -5,6 +5,7 @@ import solarsystemimg from '../../assets/imgs/png/solarsystem.png';
 import starwarsimg from '../../assets/imgs/png/starwars.png';
 import appreceitasimg from '../../assets/imgs/png/appdereceitas.png';
 import productsearch from '../../assets/imgs/png/productsearch.png';
+import mfcimg from '../../assets/imgs/png/mfc.png';
 
 const projects = [
   {
@@ -24,6 +25,12 @@ const projects = [
     title: "App de Receitas",
     description: "Nele será possível: ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas de comidas e bebidas! O layout tem como foco dispositivos móveis, dessa forma foi desenvolvido para telas menores.",
     url: "https://app-recipe-plus.vercel.app/"
+  },
+  {
+    image: mfcimg,
+    title: "Meu Futebol Clube",
+    description: "O MFC é um site informativo sobre partidas e classificações de futebol! ",
+    url: "https://meu-futebol-clube.vercel.app/leaderboard"
   },
   {
     image: shoppingimg,
