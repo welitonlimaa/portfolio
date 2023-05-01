@@ -35,11 +35,11 @@ class Footer extends React.Component {
               <blockquote>
                 <p className="main-footer__short-desc">
                   <i>
-                    Como sou pouco e sei pouco, faço o pouco que me cabe me dando por inteiro.
+                    Sabedoria é saber o que fazer, habilidade é saber como fazer, virtude é fazer
                   </i>
                 </p>
                 <footer className="main-footer__short-descautor">
-                  ~ Thiago de Mello
+                  ~ David Starr Jordan
                 </footer>
               </blockquote>
             </div>

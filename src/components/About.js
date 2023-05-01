@@ -14,15 +14,15 @@ class About extends React.Component {
               <h3 className="about__content-title">Me conheça!</h3>
               <div className="about__content-details">
                 <p className="about__content-details-para">
-                  Eu sou <strong> Desenvolvedor Web Full Stack Junior </strong> nascido e criado no
-                  interior do Tocantins. Atualmente estou estudando <strong> Desenvolvimento Web Full Stack </strong>,
-                  e tenho desenvolvido projetos Frontend para aprimorar minhas habilidades e contribuir com a
+                  Sou <strong>Desenvolvedor Web Full Stack Junior</strong>, nascido e criado no interior do Tocantins. Atualmente, estou investindo 
+                  meus esforços em estudos de Desenvolvimento Web Full Stack e, como forma de aplicar meus conhecimentos, tenho me 
+                  dedicado a desenvolver diversos projetos que visam aprimorar minhas habilidades e, ao mesmo tempo, contribuir com a 
                   comunidade tech.
                 </p>
                 <p className="about__content-details-para">
-                  Sou técnico em informática, programo desde os 15 anos de idade e já tive contato com diversas
-                  linguagens de programação como: C++, PHP, Java, e JavaScript. Gosto de estar constantemente
-                  aprendendo e contribuindo, e me sinto confortável em exercer posições de liderança.
+                  Desde os meus 15 anos, tenho paixão pela programação e já tive contato com diversas linguagens como C++, PHP, Java e 
+                  JavaScript. Com a constante evolução tecnológica, busco estar sempre aprendendo e contribuindo para o desenvolvimento 
+                  de soluções cada vez mais eficientes e inovadoras.
                 </p>
               </div>
               <a href="#footer" className="btn btn--med btn--theme dynamicBgClr">Contato</a>

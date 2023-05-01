@@ -55,7 +55,7 @@ textarea {
 
 .btn {
     background: #fff;
-    color: #333;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: inline-block;
@@ -91,6 +91,10 @@ textarea {
     border: 2px solid #0062b9;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
+}
+
+.btn--hover:hover {
+    color: #061f35;
 }
 
 .sec-pad {

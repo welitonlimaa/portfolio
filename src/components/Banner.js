@@ -23,7 +23,7 @@ class Banner extends React.Component {
             </p>
           </div>
           <div className="home-hero__cta">
-            <a href="./#projects" className="btn btn--bg">Projetos</a>
+            <a href="./#projects" className="btn btn--bg btn--hover">Projetos</a>
           </div>
         </div>
         <div className="home-hero__socials">
