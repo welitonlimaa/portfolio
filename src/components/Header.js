@@ -1,6 +1,7 @@
 import React from 'react';
-import menuicon from '../assets/svg/ham-menu.svg';
-import menucloseicon from '../assets/svg/ham-menu-close.svg';
+import menu from '../assets/data/menu.json';
+import menuicon from '../assets/imgs/svg/ham-menu.svg';
+import menucloseicon from '../assets/imgs/svg/ham-menu-close.svg';
 
 class Header extends React.Component {
   state = {
@@ -30,20 +31,15 @@ class Header extends React.Component {
         <div className="header__content">
           <div className="header__main">
             <ul className="header__links">
-              <li className="header__link-wrapper">
-                <a href="#banner" className="header__link"> Home </a>
-              </li>
-              <li className="header__link-wrapper">
-                <a href="#about" className="header__link"> Sobre mim </a>
-              </li>
-              <li className="header__link-wrapper">
-                <a href="#projects" className="header__link">
-                  Projetos
-                </a>
-              </li>
-              <li className="header__link-wrapper">
-                <a href="#footer" className="header__link"> Contato </a>
-              </li>
+              {
+                menu.map((data, index) => {
+                  return (
+                    <li key={index} className="header__link-wrapper">
+                      <a href={data.href} className="header__link"> {data.text} </a>
+                    </li>
+                  )
+                })
+              }
             </ul>
             <button
               type="button"
@@ -61,33 +57,19 @@ class Header extends React.Component {
         <div className={`header__sm-menu ${mobile}`}>
           <div className="header__sm-menu-content">
             <ul className="header__sm-menu-links">
-              <button
-                className="header__sm-menu-link"
-                onClick={this.headerSmallMenuLinks}
-              >
-                <a href="#banner"> Home </a>
-              </button>
-
-              <button
-                className="header__sm-menu-link"
-                onClick={this.headerSmallMenuLinks}
-              >
-                <a href="#about"> Sobre mim </a>
-              </button>
-
-              <button
-                className="header__sm-menu-link"
-                onClick={this.headerSmallMenuLinks}
-              >
-                <a href="#projects"> Projetos </a>
-              </button>
-
-              <button
-                className="header__sm-menu-link"
-                onClick={this.headerSmallMenuLinks}
-              >
-                <a href="#footer"> Contato </a>
-              </button>
+            {
+                menu.map((data, index) => {
+                  return (
+                    <button
+                      key={index}
+                      className="header__sm-menu-link"
+                      onClick={this.headerSmallMenuLinks}
+                    >
+                      <a href={data.href} className="header__link"> {data.text} </a>
+                    </button>
+                  )
+                })
+              }
             </ul>
           </div>
         </div>

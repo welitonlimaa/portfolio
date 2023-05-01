@@ -1,7 +1,7 @@
 import React from 'react';
-import linkedinicon from '../assets/png/linkedin-ico.png';
-import githubicon from '../assets/png/github-ico.png';
-import twittericon from '../assets/png/twitter-ico.png';
+import linkedinicon from '../assets/imgs/png/linkedin-ico.png';
+import githubicon from '../assets/imgs/png/github-ico.png';
+import twittericon from '../assets/imgs/png/twitter-ico.png';
 import { MdEmail } from 'react-icons/md';
 import { RiWhatsappFill } from 'react-icons/ri';
 
