@@ -25,6 +25,14 @@ class About extends React.Component {
                 </p>
               </div>
               <a href="#footer" className="btn btn--med btn--theme dynamicBgClr">Contato</a>
+              <a
+                href="https://drive.google.com/file/d/1_E041KBBRk0jgrH8eoD2GXWpCnvo1ckj/view?usp=sharing" 
+                target="_blank" 
+                className="btn btn--med btn--theme dynamicBgClr btn--cv"
+                rel="noreferrer"
+              >
+                Download CV
+              </a>
             </div>
             <div className="about__content-skills">
               <h3 className="about__content-title">Minhas Skills</h3>

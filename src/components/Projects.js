@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCart from './ProjectCart';
+import ProjectCard from './ProjectCard';
 import tunesimg from '../assets/png/tunes.png';
 import walletimg from '../assets/png/wallet.png';
 import shoppingimg from '../assets/png/shoppingcart.png';
@@ -21,14 +21,14 @@ class Projects extends React.Component {
           </h2>
 
           <div className="projects__content">
-            <ProjectCart
+            <ProjectCard
               image={tunesimg}
               title="More Tunes"
               description="More Tunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas 
               e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada."
               url="https://more-tunes.vercel.app/"
             />
-            <ProjectCart
+            <ProjectCard
               image={productsearch}
               title="Product Search"
               description="Este é um projeto de um buscador de produtos que conecta-se com as páginas do Mercado Livre e do Buscapé, 
@@ -36,7 +36,7 @@ class Projects extends React.Component {
               A busca pode ser feita tanto no Mercado Livre ou Buscapé, e até em ambos."
               url="https://products-search.up.railway.app/"
             />
-            <ProjectCart
+            <ProjectCard
               image={appreceitasimg}
               title="App de Receitas"
               description="Nele será possível: ver, buscar, filtrar, favoritar e acompanhar o progresso 
@@ -44,14 +44,14 @@ class Projects extends React.Component {
               dessa forma foi desenvolvido para telas menores."
               url="https://app-recipe-plus.vercel.app/"
             />
-            <ProjectCart
+            <ProjectCard
               image={shoppingimg}
               title="Shopping Cart"
               description="Carrinho de compras totalmente dinâmico, onde você será capaz de pesquisar por diversos 
               produtos e adicioná-los ao carrinho de compras."
               url="https://welitonlimaa.github.io/shopping-cart"
             />
-            <ProjectCart
+            <ProjectCard
               image={walletimg}
               title="Personal Wallet"
               description="Foi desenvolvido carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário é capaz de:
@@ -59,14 +59,14 @@ class Projects extends React.Component {
               visualizar o total de gastos convertidos para uma moeda de escolha."
               url="https://welitonlimaa.github.io/personal-wallet"
             />
-            <ProjectCart
+            <ProjectCard
               image={solarsystemimg}
               title="Solar System"
               description="Nesse aplicação você poderá visualizar todos os planetas do sistema solar renderizados na tela, 
               e visualizar todas as cartas com informações sobre missões espaciais."
               url="https://welitonlimaa.github.io/solar-system"
             />
-            <ProjectCart
+            <ProjectCard
               image={starwarsimg}
               title="StarWars Planets"
               description="Através da aplicação é possível acessar uma lista de planetas do universo de Star Wars, 

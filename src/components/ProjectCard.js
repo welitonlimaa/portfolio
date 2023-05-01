@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class ProjectCart extends React.Component {
+class ProjectCard extends React.Component {
     render() {
         const { image, title, description, url } = this.props;
         return (
@@ -26,11 +26,11 @@ class ProjectCart extends React.Component {
     }
 }
 
-ProjectCart.propTypes = {
+ProjectCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
 }
 
-export default ProjectCart;
+export default ProjectCard;
