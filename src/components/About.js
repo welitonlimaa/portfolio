@@ -25,7 +25,7 @@ class About extends React.Component {
                   de soluções cada vez mais eficientes e inovadoras.
                 </p>
               </div>
-              <a href="#footer" className="btn btn--med btn--theme dynamicBgClr">Contato</a>
+              <a href="#contact" className="btn btn--med btn--theme dynamicBgClr">Contato</a>
               <a
                 href="https://github.com/welitonlimaa/welitonlimaa/blob/main/CV-weliton-pereira-lima-junior.pdf" 
                 target="_blank" 

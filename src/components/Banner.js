@@ -1,8 +1,6 @@
 import React from 'react';
-import linkedinicon from '../assets/imgs/png/linkedin-ico.png';
-import githubicon from '../assets/imgs/png/github-ico.png';
-import twittericon from '../assets/imgs/png/twitter-ico.png';
 import picture from '../assets/imgs/jpeg/weliton.jpeg';
+import socialLinks from '../assets/data/socialLinks';
 
 class Banner extends React.Component {
   render() {
@@ -27,33 +25,21 @@ class Banner extends React.Component {
           </div>
         </div>
         <div className="home-hero__socials">
-          <div className="home-hero__social">
-            <a
-              href="https://www.linkedin.com/in/weliton-lima/"
-              className="home-hero__social-icon-link"
-              target="_blank" rel="noreferrer"
-            >
-              <img src={linkedinicon} alt="icon" className="home-hero__social-icon" />
-            </a>
-          </div>
-          <div className="home-hero__social">
-            <a
-              href="https://github.com/welitonlimaa"
-              className="home-hero__social-icon-link"
-              target="_blank" rel="noreferrer"
-            >
-              <img src={githubicon} alt="icon" className="home-hero__social-icon" />
-            </a>
-          </div>
-          <div className="home-hero__social">
-            <a
-              href="https://twitter.com/welitonlimaa"
-              className="home-hero__social-icon-link"
-              target="_blank" rel="noreferrer"
-            >
-              <img src={twittericon} alt="icon" className="home-hero__social-icon" />
-            </a>
-          </div>
+          {
+            socialLinks.map((data, index) => {
+              return(
+                <div key={index} className="home-hero__social">
+                  <a
+                    href={data.href}
+                    className="home-hero__social-icon-link"
+                    target="_blank" rel="noreferrer"
+                  >
+                    <img src={data.image} alt="icon" className="home-hero__social-icon" />
+                  </a>
+                </div>
+              )
+            })
+          }
         </div>
         <div className="home-hero__mouse-scroll-cont">
           <a className="mouse" href='#about' />
