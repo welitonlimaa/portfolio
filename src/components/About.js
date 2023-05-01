@@ -26,7 +26,7 @@ class About extends React.Component {
               </div>
               <a href="#footer" className="btn btn--med btn--theme dynamicBgClr">Contato</a>
               <a
-                href="https://drive.google.com/file/d/1_E041KBBRk0jgrH8eoD2GXWpCnvo1ckj/view?usp=sharing" 
+                href="https://github.com/welitonlimaa/welitonlimaa/blob/main/CV-weliton-pereira-lima-junior.pdf" 
                 target="_blank" 
                 className="btn btn--med btn--theme dynamicBgClr btn--cv"
                 rel="noreferrer"
