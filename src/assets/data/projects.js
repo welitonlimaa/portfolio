@@ -6,19 +6,26 @@ import starwarsimg from '../../assets/imgs/png/starwars.png';
 import appreceitasimg from '../../assets/imgs/png/appdereceitas.png';
 import productsearch from '../../assets/imgs/png/productsearch.png';
 import mfcimg from '../../assets/imgs/png/mfc.png';
+import drinkdeliveryimg from '../../assets/imgs/png/drinkdelivery.png';
 
 const projects = [
   {
-    image: tunesimg,
-    title: "More Tunes",
-    description: "More Tunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
-    url: "https://more-tunes.vercel.app/"
+    image: drinkdeliveryimg,
+    title: "Drink Delivery",
+    description: "O Drink Delivery é um aplicativo de delivery de cervejas desenvolvido para simplificar o processo de pedidos, preparo e entrega de bebidas de uma distribuidora.",
+    url: "https://drink-delivery.vercel.app/"
   },
   {
     image: productsearch,
     title: "Product Search",
     description: "Este é um projeto de um buscador de produtos que conecta-se com as páginas do Mercado Livre e do Buscapé, realizando web scraping para obter informações sobre produtos nas categorias Celular, Geladeira e TV. A busca pode ser feita tanto no Mercado Livre ou Buscapé, e até em ambos.",
     url: "https://products-search.up.railway.app/"
+  },
+  {
+    image: tunesimg,
+    title: "More Tunes",
+    description: "More Tunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
+    url: "https://more-tunes.vercel.app/"
   },
   {
     image: appreceitasimg,
@@ -45,16 +52,16 @@ const projects = [
     url: "https://welitonlimaa.github.io/personal-wallet"
   },
   {
-    image: solarsystemimg,
-    title: "Solar System",
-    description: "Nesse aplicação você poderá visualizar todos os planetas do sistema solar renderizados na tela, e visualizar todas as cartas com informações sobre missões espaciais.",
-    url: "https://welitonlimaa.github.io/solar-system"
-  },
-  {
     image: starwarsimg,
     title: "StarWars Planets",
     description: "Através da aplicação é possível acessar uma lista de planetas do universo de Star Wars, além disso você poderá pesquisar, filtrar e ordenar esse planetas.",
     url: "https://welitonlimaa.github.io/starwars-planets"
+  },
+  {
+    image: solarsystemimg,
+    title: "Solar System",
+    description: "Nesse aplicação você poderá visualizar todos os planetas do sistema solar renderizados na tela, e visualizar todas as cartas com informações sobre missões espaciais.",
+    url: "https://welitonlimaa.github.io/solar-system"
   }
 ];
 
