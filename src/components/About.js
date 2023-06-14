@@ -14,15 +14,16 @@ class About extends React.Component {
               <h3 className="about__content-title">Me conheça!</h3>
               <div className="about__content-details">
                 <p className="about__content-details-para">
-                  Sou <strong>Desenvolvedor Web Full Stack Junior</strong>, nascido e criado no interior do Tocantins. Atualmente, estou investindo 
-                  meus esforços em estudos de Desenvolvimento Web Full Stack e, como forma de aplicar meus conhecimentos, tenho me 
-                  dedicado a desenvolver diversos projetos que visam aprimorar minhas habilidades e, ao mesmo tempo, contribuir com a 
-                  comunidade tech.
+                  Sou um <strong>Desenvolvedor Web Full Stack</strong> altamente motivado e dedicado, com um forte desejo de aprender e crescer 
+                  profissionalmente. Tive meu primeiro contato com a programação aos 15 anos e desde então, tenho explorado diversas 
+                  linguagens, como C++, PHP, Java e JavaScript. Com habilidades sólidas em desenvolvimento de front-end e back-end, 
+                  utilizando tecnologias como Node.js, PHP, React.js e bancos de dados MySQL e MongoDB, sou capaz de criar soluções 
+                  inovadoras e eficientes.
                 </p>
                 <p className="about__content-details-para">
-                  Desde os meus 15 anos, tenho paixão pela programação e já tive contato com diversas linguagens como C++, PHP, Java e 
-                  JavaScript. Com a constante evolução tecnológica, busco estar sempre aprendendo e contribuindo para o desenvolvimento 
-                  de soluções cada vez mais eficientes e inovadoras.
+                  Minha paixão pela programação me impulsiona a buscar constantemente novos conhecimentos e 
+                  contribuir para o avanço da tecnologia. Estou pronto para fazer parte de equipes de desenvolvimento dinâmicas, 
+                  compartilhar minhas habilidades e fazer a diferença no mundo da programação.
                 </p>
               </div>
               <a href="#contact" className="btn btn--med btn--theme dynamicBgClr">Contato</a>
