@@ -16,6 +16,12 @@ const projects = [
     url: "https://drink-delivery.vercel.app/"
   },
   {
+    image: 'https://github.com/welitonlimaa/eazysell-commerce/assets/108986668/9d1fe38b-8d5b-4713-910d-1eab66312a7a',
+    title: "EazySell Commerce",
+    description: "EazySell Commerce é um projeto de e-commerce desenvolvido com Laravel, JavaScript e Tailwind CSS. O projeto simula o fluxo do cliente, desde a adição de produtos ao carrinho até o checkout. Existem três níveis de usuários: user, agent e admin, cada um com seus respectivos níveis de acesso.",
+    url: "https://github.com/welitonlimaa/eazysell-commerce"
+  },
+  {
     image: productsearch,
     title: "Product Search",
     description: "Este é um projeto de um buscador de produtos que conecta-se com as páginas do Mercado Livre e do Buscapé, realizando web scraping para obter informações sobre produtos nas categorias Celular, Geladeira e TV. A busca pode ser feita tanto no Mercado Livre ou Buscapé, e até em ambos.",
